@@ -1,5 +1,5 @@
 const std = @import("std");
-const memory = @import("./mem/bestfit_little/memory.zig");
+const memory = @import("../base//mem/bestfit_little/memory.zig");
 const global = @import("./global.zig");
 const config = @import("../../config.zig");
 const shell_lk = @import("../../shell/full/src/base/shell_lk.zig");

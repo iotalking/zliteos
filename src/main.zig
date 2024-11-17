@@ -7,4 +7,5 @@ pub fn main() !void {
 
 comptime {
     _ = @import("./kernel/common/list.zig");
+    _ = @import("./kernel/base/mem/bestfit_little/memory.zig");
 }
